@@ -10,12 +10,15 @@
 <body>
     <div class="portfolio">
         <div class="profile">
-            <img src="cat.jpeg" class="profile-img"></img>
-            Garnet "The Destroyer"
+            <img src="me.jpg" class="profile-img"></img>
+            <h1 class="profile-header">Niall Murray (& Garnet)</h1>
         </div>
 
-        <div class="links">
-            <h2 class="links-header">Links</h2>
+        <hr class="solid-line"></hr>
+
+        <!-- links -->
+        <div class="subsection">
+            <h2 class="subsection-header">Links</h2>
             <table border="1">
                 <tr>
                     <th>Social</th>
@@ -35,6 +38,21 @@
                 </tr>
             </table>
         </div>
+
+        <hr class="solid-line"></hr>
+
+        <!-- skills -->
+        <div class="subsection">
+            <h2 class="subsection-header">Skills</h2>
+            <ul>
+                <li>TypeScript</li>
+                <li>PHP</li>
+                <li>C/C++</li>
+                <li>GDScript</li>
+            </ul>
+        </div>
+
+        <hr class="solid-line"></hr>
     </div>
 </body>
 
@@ -44,7 +62,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 25rem;
+    padding: 5rem;
 }
 
 .profile {
@@ -54,18 +74,22 @@
 }
 
 .profile-img {
-    width: 200px;
+    width: 20rem;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
 
-.links {
+.profile-header {
+    margin-top: 0.5rem;
+}
+
+.subsection {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.links-header {
+.subsection-header {
     margin-bottom: 0.5rem;
 }
 
@@ -75,6 +99,13 @@ th, td {
 
 td.left-text, th.left-text {
     text-align: left;
+}
+
+.solid-line {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+    width: 25vw;
 }
 
 </style>
