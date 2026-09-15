@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Niall Murray</title>
+</head>
+
+<body>
+    <div class="portfolio">
+        <div class="profile">
+            <img src="cat.jpeg" class="profile-img"></img>
+            Garnet "The Destroyer"
+        </div>
+
+        <div class="links">
+            <h2 class="links-header">Links</h2>
+            <table border="1">
+                <tr>
+                    <th>Social</th>
+                    <th style="min-width: 10rem;" class="left-text">Link</th>
+                </tr>
+                <tr>
+                    <th>GitHub</th>
+                    <th class="left-text">
+                        <a href="https://github.com/Narwhale14">Go To Github</a>
+                    </th>
+                </tr>
+                <tr>
+                    <th>LinkedIn</th>
+                    <th class="left-text">
+                        <a href="https://www.linkedin.com/in/niall-murray-48b660366/">Go To LinkedIn</a>
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+<style>
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-img {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links-header {
+    margin-bottom: 0.5rem;
+}
+
+th, td {
+    padding: 0.5rem 1rem;
+}
+
+td.left-text, th.left-text {
+    text-align: left;
+}
+
+</style>
