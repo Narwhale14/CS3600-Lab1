@@ -3,109 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 
     <title>Niall Murray</title>
 </head>
 
 <body>
-    <div class="portfolio">
-        <div class="profile">
-            <img src="me.jpg" class="profile-img"></img>
-            <h1 class="profile-header">Niall Murray (& Garnet)</h1>
-        </div>
+    <div class="profile">
+        <img src="me.jpg" class="profile-img"></img>
+        <h1 class="profile-header">Niall Murray (& Garnet)</h1>
+    </div>
 
-        <hr class="solid-line"></hr>
+    <a href="projects.html">
+        <h3 style="margin-bottom: 0px;">View Projects</h3>
+    </a>
 
-        <!-- links -->
-        <div class="subsection">
-            <h2 class="subsection-header">Links</h2>
-            <table border="1">
-                <tr>
-                    <th>Social</th>
-                    <th style="min-width: 10rem;" class="left-text">Link</th>
-                </tr>
-                <tr>
-                    <th>GitHub</th>
-                    <th class="left-text">
-                        <a href="https://github.com/Narwhale14">Go To Github</a>
-                    </th>
-                </tr>
-                <tr>
-                    <th>LinkedIn</th>
-                    <th class="left-text">
-                        <a href="https://www.linkedin.com/in/niall-murray-48b660366/">Go To LinkedIn</a>
-                    </th>
-                </tr>
-            </table>
-        </div>
+    <hr class="solid-line"></hr>
 
-        <hr class="solid-line"></hr>
+    <!-- links -->
+    <div class="subsection">
+        <h2 class="subsection-header">Links</h2>
+        <table border="1">
+            <tr>
+                <th>Social</th>
+                <th style="min-width: 10rem;" class="left-text">Link</th>
+            </tr>
+            <tr>
+                <th>GitHub</th>
+                <th class="left-text">
+                    <a href="https://github.com/Narwhale14">Go To Github</a>
+                </th>
+            </tr>
+            <tr>
+                <th>LinkedIn</th>
+                <th class="left-text">
+                    <a href="https://www.linkedin.com/in/niall-murray-48b660366/">Go To LinkedIn</a>
+                </th>
+            </tr>
+        </table>
+    </div>
 
-        <!-- skills -->
-        <div class="subsection">
-            <h2 class="subsection-header">Skills</h2>
-            <ul>
-                <li>TypeScript</li>
-                <li>PHP</li>
-                <li>C/C++</li>
-                <li>GDScript</li>
-            </ul>
-        </div>
+    <hr class="solid-line"></hr>
 
-        <hr class="solid-line"></hr>
+    <!-- skills -->
+    <div class="subsection">
+        <h2 class="subsection-header">Skills</h2>
+        <ul>
+            <li>TypeScript</li>
+            <li>PHP</li>
+            <li>C/C++</li>
+            <li>GDScript</li>
+        </ul>
     </div>
 </body>
-
-<style>
-
-.portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 25rem;
-    padding: 5rem;
-}
-
-.profile {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.profile-img {
-    width: 20rem;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-}
-
-.profile-header {
-    margin-top: 0.5rem;
-}
-
-.subsection {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.subsection-header {
-    margin-bottom: 0.5rem;
-}
-
-th, td {
-    padding: 0.5rem 1rem;
-}
-
-td.left-text, th.left-text {
-    text-align: left;
-}
-
-.solid-line {
-    border: none;
-    border-top: 2px solid black;
-    margin: 20px 0;
-    width: 25vw;
-}
-
-</style>

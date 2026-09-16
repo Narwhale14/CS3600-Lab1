@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 25rem;
+    padding: 2rem;
+}
+
+th, td {
+    padding: 0.5rem 1rem;
+}
+
+td.left-text, th.left-text {
+    text-align: left;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-img {
+    width: 20rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.profile-header {
+    margin-top: 0.5rem;
+}
+
+.subsection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subsection-header {
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+}
+
+.solid-line {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+    width: 25vw;
+}
